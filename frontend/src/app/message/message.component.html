@@ -1,0 +1,32 @@
+<div class="form-floating-wrapper">
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" [(ngModel)]="comment" style="height: 100px"></textarea>
+      <label for="floatingTextarea2">Comments</label>
+    </div>
+    <button (click)="showContent()" class="btn btn-primary">Show Content</button>
+  </div>
+  <div class="message">
+    <p >{{ content }}</p>
+  <div>
+    Station: {{ station}}
+  </div>
+  <div>
+    Jour:{{ jour}}  &nbsp; &nbsp; &nbsp;Heur:{{ heur}}
+  </div>
+  <div>
+    vent:{{ vent}}  &nbsp;  &nbsp;  &nbsp;direction:{{ direction}} &nbsp; &nbsp; &nbsp;force:{{ force}}
+  </div>
+  
+  <div>
+    Visibilité:{{ visibilite}}
+  </div>
+  <div>
+    Température:{{ temperature}} &nbsp;  &nbsp;  &nbsp; point de rosée:{{ point}}
+  </div>
+  <div>
+    Préssion:{{ pression}}
+  </div>
+</div>
+
+
+  

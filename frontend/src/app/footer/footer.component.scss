@@ -1,0 +1,18 @@
+.bi{
+    color: #d57579;
+    font-size: 24px;
+}
+
+.fa-li .bi{
+    font-size: 18px;
+}
+
+.btn-lg{
+    width: 20%;
+    transition: all .2s ease-in-out;
+}
+
+.btn-lg:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+}

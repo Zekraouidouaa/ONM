@@ -1,0 +1,24 @@
+.form-floating-wrapper {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    margin: 10px; /* Add space between textarea and button */
+
+  }
+  
+  .form-floating {
+    flex: 1; /* Make textarea take available space */
+  }
+  
+  textarea {
+    width: 100%; /* Ensure textarea takes full width of its container */
+  }
+  
+  button {
+    white-space: nowrap; /* Prevent button text from wrapping */
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .message{
+    padding: 20px;
+  }
